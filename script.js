@@ -153,7 +153,7 @@ const contrastColor = (hex) => {
 };
 
 const buildSingleWaLink = (product, grade, color) => {
-  const phone     = "2349160000000";
+  const phone     = "260769756524";
   const gradeInfo = product.type === "sleeveless"
     ? `Fixed Price: ${formatPrice(product.price || 0)}`
     : `Shirt Grade: ${grade.name} — ${formatPrice(grade.price)}`;
@@ -168,7 +168,7 @@ const buildSingleWaLink = (product, grade, color) => {
 };
 
 const buildCartWaLink = () => {
-  const phone = "2349160000000";
+  const phone = "260769756524";
   const lines = cart.map((item, i) =>
     `${i + 1}. ${item.design}` +
     (item.shirtGrade  ? ` · ${item.shirtGrade} Grade`  : "") +
